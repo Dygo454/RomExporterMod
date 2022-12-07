@@ -31,7 +31,7 @@ public class ExportRomCommand {
         dispatcher.register(CommandManager.literal("exp-rom")
                 .then(CommandManager.argument("ChestPos", BlockPosArgumentType.blockPos())
                 .then(CommandManager.argument("FirstBitPos", BlockPosArgumentType.blockPos())
-                .then(CommandManager.argument("ClearPrevious", StringReader::readBoolean)
+                .then(CommandManager.argument("ClearPrevious", BoolArgumentType.bool())
                         .executes(ExportRomCommand::run)))));
         dispatcher.register(CommandManager.literal("exp-rom")
                 .then(CommandManager.argument("ChestPos", BlockPosArgumentType.blockPos())
