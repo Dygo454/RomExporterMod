@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "myromexp",
+  "version": "${version}",
+
+  "name": "My Rom Exporter",
+  "description": "Takes a chest with a book as input and puts the information into my custom redstone ROM",
+  "authors": [
+    "dygo454"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/myromexp/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dygo454.myRomExporter.MyRomExporter"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
