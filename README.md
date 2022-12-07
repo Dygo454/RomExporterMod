@@ -4,5 +4,6 @@ WARNING:
 
 
 [link to redstone computer showcase possibly comming later as I am not sure yet on whether or not I will finish building the computer]
+[ALSO links to possible compilers and/or documentation may come later on]
 
 That said even then it only works in a specific orientation meaning that if my ROM chip is rotated the mod can't work propperly.
